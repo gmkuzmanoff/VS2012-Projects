@@ -1,0 +1,77 @@
+﻿<Window x:Class="WpfJson.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Weather" Height="300" Width="500" Icon="/assets/app_icon.ico" ResizeMode="CanMinimize">
+    <Grid x:Name="Main_grid" Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="0" Orientation="Vertical" Grid.RowSpan="2">
+            <TextBlock Text="powered by OpenWeatherMap.org" Margin="1 0 10 1" Foreground="Azure" FontSize="10"/>
+            <TextBlock x:Name="tb_temp" Text="" Height="70" Margin="10 10 10 0" Foreground="Goldenrod" FontSize="60" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_icon" Height="90" Width="145" HorizontalAlignment="left" Margin="10 0 0 0">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Vertical" Grid.Column="0" VerticalAlignment="Bottom">
+            <TextBlock Text="Location ( @example: London )" Margin="10 10 10 0" Foreground="Azure">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBox x:Name="tbox_name" Height="30" Margin="10,5,9.2,10" Padding="1" FontSize="20" KeyDown="Key_down_Click"/>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="1" VerticalAlignment="Top">
+            <TextBlock x:Name="tb_pressure" Height="20" Margin="10 0 10 0" Foreground="Azure" FontSize="15" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_humidity" Height="20" Margin="10 1 10 0" Foreground="Azure" FontSize="15" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_temp_minmax" Height="20" Margin="10 1 10 0" Foreground="Azure" FontSize="15" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_clouds" Height="40" Margin="10 1 10 0" Foreground="Azure" FontSize="15" FontFamily="Moire" TextWrapping="Wrap">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="0" Grid.Column="1" VerticalAlignment="Bottom">
+            <TextBlock x:Name="tb_name" Text="" Height="60" Margin="10" Foreground="Azure" FontSize="25" FontFamily="Moire" TextWrapping="Wrap">
+                <TextBlock.Effect>
+                    <DropShadowEffect/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_coord" Height="20" Margin="10 10 10 1" Foreground="Azure" FontSize="15" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBlock x:Name="tb_wind" Height="20" Margin="10 0 10 1" Foreground="Azure" FontSize="15" FontFamily="Moire">
+                <TextBlock.Effect>
+                    <DropShadowEffect BlurRadius="10"/>
+                </TextBlock.Effect>
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>
