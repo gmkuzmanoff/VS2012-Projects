@@ -1754,6 +1754,7 @@ namespace News_BG
             tb_title_19.Text = outObject.articles[19].title;
             tb_description_19.Text = outObject.articles[19].description;
             tb_url_19.Text = outObject.articles[19].url;
+            
         }
 
         private void DClick_lbi_0(object sender, MouseButtonEventArgs e)
@@ -1875,6 +1876,7 @@ namespace News_BG
         {
             string site = tb_url_19.Text;
             System.Diagnostics.Process.Start(site);
+            
         }
 
        
