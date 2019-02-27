@@ -47,7 +47,7 @@ namespace News_BG
         {
             //throw new NotImplementedException();
             //Date.Content = DateTime.Now.ToString(@"dd\.MM\.20yy");
-            Clock.Content = DateTime.Now.ToString(@"hh\:mm");
+            Clock.Content = DateTime.Now.ToString(@"HH\:mm");
         }
 
         private void BG_Click(object sender, RoutedEventArgs e)
