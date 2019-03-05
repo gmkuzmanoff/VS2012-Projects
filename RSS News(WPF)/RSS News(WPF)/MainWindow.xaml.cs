@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace RSS_News_WPF_
 {
@@ -23,6 +25,26 @@ namespace RSS_News_WPF_
         public MainWindow()
         {
             InitializeComponent();
+            clockstart();
+        }
+
+        private void clockstart()
+        {
+            DispatcherTimer clock = new DispatcherTimer();
+            clock.Interval = TimeSpan.FromSeconds(1);
+            clock.Tick+=clock_Tick;
+            clock.Start();
+        }
+
+        private void clock_Tick(object sender, EventArgs e)
+        {
+            tb_clock.Text = DateTime.Now.ToString(@"HH\:mm");
+            tb_date.Text = DateTime.Now.ToString(@"dd\.MM\.20yy");
+        }
+
+        private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
+        {
+            Process.Start(e.Uri.AbsoluteUri);
         }
 
         

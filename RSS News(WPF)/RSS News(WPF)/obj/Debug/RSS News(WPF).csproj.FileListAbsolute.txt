@@ -1,13 +1,13 @@
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\RSS News(WPF).exe.config
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\RSS News(WPF).exe
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\RSS News(WPF).pdb
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF).csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\MainWindow.baml
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\MainWindow.g.cs
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\App.g.cs
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF)_MarkupCompile.cache
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF).g.resources
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS_News_WPF_.Properties.Resources.resources
 c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF).csproj.GenerateResource.Cache
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF).exe
-c:\users\user\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\RSS News(WPF).pdb
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\BNT News(WPF).exe.config
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\BNT News(WPF).exe
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\BNT News(WPF).pdb
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF)_MarkupCompile.cache
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).g.resources
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).exe
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).pdb
