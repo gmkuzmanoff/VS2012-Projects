@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\bin\Debug\Scoring system.exe.config
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\bin\Debug\Scoring system.exe
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\bin\Debug\Scoring system.pdb
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\MainWindow.baml
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\MainWindow.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\App.g.cs
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system_MarkupCompile.cache
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.g.resources
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring_system.Properties.Resources.resources
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.exe
+c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.pdb
