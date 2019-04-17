@@ -11,3 +11,7 @@ C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\
 C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).g.resources
 C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).exe
 C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).pdb
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\BNT News(WPF).exe.manifest
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\bin\Debug\BNT News(WPF).application
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).exe.manifest
+C:\Users\User\documents\visual studio 2012\Projects\RSS News(WPF)\RSS News(WPF)\obj\Debug\BNT News(WPF).application

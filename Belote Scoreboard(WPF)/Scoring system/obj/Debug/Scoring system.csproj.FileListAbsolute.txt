@@ -11,3 +11,7 @@ c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring syste
 c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.csproj.GenerateResource.Cache
 c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.exe
 c:\users\user\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.pdb
+C:\Users\User\documents\visual studio 2012\Projects\Scoring system\Scoring system\bin\Debug\Scoring system.exe.manifest
+C:\Users\User\documents\visual studio 2012\Projects\Scoring system\Scoring system\bin\Debug\Scoring system.application
+C:\Users\User\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.exe.manifest
+C:\Users\User\documents\visual studio 2012\Projects\Scoring system\Scoring system\obj\Debug\Scoring system.application

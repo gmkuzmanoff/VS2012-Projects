@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="BNT News(WPF).exe" version="1.0.0.0" publicKeyToken="eb3cf82b45c68398" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Assets\icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="BNT News(WPF)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="BNT News(WPF).exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BNT News(WPF).exe" size="216064">
+      <assemblyIdentity name="BNT News(WPF)" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tI0Y009wymQWPJPFr078LWSyf5tsoYi2VdbqbzgeXLs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Assets\icon.ico" size="101902">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ikFKaRMyEJAj+DQzjAl3WQh6U02kApdg9O7rJdNs4Dk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BNT News(WPF).exe.config" size="167">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KMpFxPeEUhuZZwIkzmM2feuRSYEXLF3ODklvcvx9QCo=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=E520_EDGE\User" issuerKeyHash="d45c94b894503368dfa91b6e0e5cd94586cd9e28" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ppkXmsnpHpmR8RzCEGnsBAPtYAAxnouu6LX9cvgU404=</DigestValue></Reference></SignedInfo><SignatureValue>TDXHI3Y+OmgB1yj1HxmVdhLb7x0fRjli336q1v2TvJyxLFzwLEzKB9y/lKOIsHG0ykcXUxkn4tZWzS2wJfp8fvQXwXqlTpqDDfGsgkhOMhNris7nnTjEJOyMjDaElFGGIshmFOGx4qN22LByVNx2pWZpRhjIX3fXGGG/FLiTnpQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>tQW1CH59/xNq+1WTrWyJF6V+YKCo157JXAEepA5KqrJU6KWr13mtyx8+EGjOKZiSnUAnOvx7oS1ikZa9+tashQ6MTWIBDAQ7nvfo98sGco4pprWZE29V0p52GorQ1Lbq5PT2k39mkgOrmZATAblYhQRDWdul4dMVWsTLji27ujs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4ee314f872fdb5e8ae8b9e310060ed0304ec6910c21cf191991ee9c99a1799a6" Description="" Url=""><as:assemblyIdentity name="BNT News(WPF).exe" version="1.0.0.0" publicKeyToken="eb3cf82b45c68398" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=E520_EDGE\User</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Bsv46UaSa9IsQyTH1wE0FIJzOxAbauW9/DUJHpRTe3c=</DigestValue></Reference></SignedInfo><SignatureValue>hUH9+B5kgj+4dABRpDOHkj5Q92EcWL2TpsCzTmeO5xmgfyCiW6pz81bhbck5zgxmoDB6gBCNTnYYHcWIE90ILAMqUJ+PDZySw+k2Vmu3SE6YAuMb8RWSgV8nzgFo7sA7oszco+AIdYW2MrdNFwknLYJpI+sMjZmqaVqACCrs+9M=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>tQW1CH59/xNq+1WTrWyJF6V+YKCo157JXAEepA5KqrJU6KWr13mtyx8+EGjOKZiSnUAnOvx7oS1ikZa9+tashQ6MTWIBDAQ7nvfo98sGco4pprWZE29V0p52GorQ1Lbq5PT2k39mkgOrmZATAblYhQRDWdul4dMVWsTLji27ujs=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQKgA4KnMXR75JhGkPxHvaTDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwARQA1ADIAMABfAEUARABHAEUAXABVAHMAZQByMB4XDTE5MDMwNjA4MzE1MloXDTIwMDMwNTE0MzE1MlowJzElMCMGA1UEAx4cAEUANQAyADAAXwBFAEQARwBFAFwAVQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAtQW1CH59/xNq+1WTrWyJF6V+YKCo157JXAEepA5KqrJU6KWr13mtyx8+EGjOKZiSnUAnOvx7oS1ikZa9+tashQ6MTWIBDAQ7nvfo98sGco4pprWZE29V0p52GorQ1Lbq5PT2k39mkgOrmZATAblYhQRDWdul4dMVWsTLji27ujsCAwEAATANBgkqhkiG9w0BAQsFAAOBgQBOmZNmZaTGVy84F1rB6/y/De61JTidpn15YtSspBDhrrqPGM1kJtHhG0nxxRtF/hnthMy2jTkcpmQ8voUEwWRdxXsmiCj/o50tvqcue6eALDZlX0fTD/t5btQRfVXHi0wzNLQE1+MBZ/nFaLLolg7ku1f+QqMWys18zSiwfwCHVQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

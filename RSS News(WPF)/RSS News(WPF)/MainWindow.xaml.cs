@@ -14,19 +14,23 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Windows.Media.Animation;
 
 namespace RSS_News_WPF_
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
+
+        DoubleAnimation anim = new DoubleAnimation(0, 1, TimeSpan.FromSeconds(1.5));
+    
         public MainWindow()
         {
             InitializeComponent();
+            lb_main.BeginAnimation(OpacityProperty, anim);
             clockstart();
         }
+
 
         private void clockstart()
         {
@@ -38,24 +42,15 @@ namespace RSS_News_WPF_
 
         private void clock_Tick(object sender, EventArgs e)
         {
-            tb_clock.Text = DateTime.Now.ToString(@"HH\:mm");
-            tb_date.Text = DateTime.Now.ToString(@"dd\.MM\.20yy");
+            //tb_clock.Text = DateTime.Now.ToString(@"HH\:mm");
+            tb_date.Text = DateTime.Now.ToString(@"dd\.MM\.yyyy г.");
+          
         }
 
         private void Hyperlink_RequestNavigate(object sender, RequestNavigateEventArgs e)
         {
             Process.Start(e.Uri.AbsoluteUri);
         }
-
-        
-
-       
-        
-
-       
-
-        
-
       
     }
 }
